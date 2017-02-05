@@ -73,7 +73,8 @@ Build App :- **mvn clean install**
 Run App:- **java -jar target/spring-boot-security-x509-server-app-0.0.1-SNAPSHOT.jar** 
 
 You can be access through the following URL. but you cannot access it with your web browser as your web browser does not have the client certificate we have created for accessing the server app.
-[http://localhost:8445/](http://localhost:8443/)
+
+[https://localhost:8443/](https://localhost:8443/)
 
 
 #### 3. spring-boot-security-x509-client-app 

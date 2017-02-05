@@ -68,7 +68,7 @@ server.ssl.trust-store-password=1qaz2wsx
 server.ssl.client-auth=need
 ```
 
-##### build and run server app in the spring-boot embedded tomcat server 
+**build and run server app in the spring-boot embedded tomcat server**
 Build App :- **mvn clean install**  
 Run App:- **java -jar target/spring-boot-security-x509-server-app-0.0.1-SNAPSHOT.jar** 
 
@@ -89,7 +89,7 @@ This is the client application that we are accessing through the browser. Client
 ```
 
 
-##### Then build and run the application as follows.  if you need you can change the server port in application.properties
+**Then build and run the application as follows.  if you need you can change the server port in application.properties**
 
 Build App :- **mvn clean install**  
 Run App:- **java -jar target/spring-boot-security-x509-server-app-0.0.1-SNAPSHOT.jar** 

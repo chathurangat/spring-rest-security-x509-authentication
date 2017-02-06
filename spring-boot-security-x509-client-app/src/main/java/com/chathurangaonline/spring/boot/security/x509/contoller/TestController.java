@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-
-
     @RequestMapping(value = "/info", method = RequestMethod.GET)
     public String displayMessage()
     {

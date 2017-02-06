@@ -17,7 +17,10 @@ public class AppSpringSecurityConfig extends WebSecurityConfigurerAdapter {
         super.configure(auth);
     }
 
-    // subjectPrincipalRegex("CN=(.*?)(?:,|$)") :- The regular expression used to extract a username from the certificate’s subject name.
+    /**
+     * subjectPrincipalRegex("CN=(.*?)(?:,|$)") :- The regular expression used to extract a username from the client certificate’s subject name.
+     * (CN value of the client certificate)
+     */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         //Enabling X.509 client authentication is very straightforward. just add x509()
